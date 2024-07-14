@@ -3,8 +3,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rominf-spacy-core-web-trf"
+name = "rominf-spacy-en-core-web-trf"
 version = "3.7.3"
 dependencies = [
-    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889"
+    "en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3-py3-none-any.whl#sha256=f72abb34bdf174876bd4267b29b2501677e605e0a251fdc56c163003182ed68b"
 ]
