@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rominf-stanza-fi-processor-forward-charlm-conll17"
+version = "1.8.0"
+
+[tool.setuptools.packages.find]
+where = ["data"]
