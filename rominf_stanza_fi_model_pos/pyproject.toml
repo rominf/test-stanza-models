@@ -3,8 +3,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rominf-stanza-fi-processor-backward-charlm-conll17"
+name = "rominf-stanza-fi-model-pos"
 version = "1.8.0"
-
-[tool.setuptools.packages.find]
-where = ["data"]
+dependencies = [
+    "rominf-stanza-fi-model-pos-tdt-charlm==1.8.0"
+]

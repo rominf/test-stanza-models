@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rominf-stanza-fi-processor-tokenize-ftb"
+name = "rominf-stanza-fi-model-tokenize-ftb"
 version = "1.8.0"
 
 [tool.setuptools.packages.find]

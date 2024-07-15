@@ -6,11 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "rominf-stanza-fi"
 version = "1.8.0"
 
-[project.optional-dependencies]
-default = [
-    "rominf-stanza-fi-processor-tokenize-tdt==1.8.0",
-    "rominf-stanza-fi-processor-mwt-tdt==1.8.0",
-    "rominf-stanza-fi-processor-lemma-tdt-nocharlm==1.8.0",
-    "rominf-stanza-fi-processor-pos-tdt-charlm==1.8.0",
+dependencies = [
+    "rominf-stanza-fi-model-tokenize-tdt==1.8.0",
+    "rominf-stanza-fi-model-mwt-tdt==1.8.0",
+    "rominf-stanza-fi-model-lemma-tdt-nocharlm==1.8.0",
+    "rominf-stanza-fi-model-pos-tdt-charlm==1.8.0",
 ]
 

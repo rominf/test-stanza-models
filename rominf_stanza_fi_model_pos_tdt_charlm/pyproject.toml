@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rominf-stanza-fi-model-pos-tdt-charlm"
+version = "1.8.0"
+dependencies = [
+    "rominf-stanza-fi-model-pretrain-conll17==1.8.0",
+    "rominf-stanza-fi-model-forward-charlm-conll17==1.8.0",
+    "rominf-stanza-fi-model-backward-charlm-conll17==1.8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["data"]
